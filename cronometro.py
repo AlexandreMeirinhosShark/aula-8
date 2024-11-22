@@ -21,7 +21,7 @@ y = 0
 z = 0
 while True:
     print(f"{twodigit(z)}:{twodigit(y)}:{twodigit(x)}")
-    x = int(x) + 1
+    x += 1
     if x == 60:
         x = 0
         y += 1
